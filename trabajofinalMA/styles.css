@@ -183,6 +183,7 @@ footer p{
 }
 .contact textarea{
     padding: 5px;
+    resize: none;
     width: 300px;
     height: 80px;
     margin-bottom: 10px;
@@ -206,11 +207,18 @@ footer p{
     font-size: 17px;
     text-align: center;
 }
-.encuestauno, .encuestados h3{
+.encuestauno h3{
     font-family: Alata-regular;
     font-size: 30px; 
     margin-top: 10px;
     text-align: center;
+    color: rgb(166, 92, 131);
+}
+.encuestados h3{
+    font-family: Alata-regular;
+    font-size: 30px; 
+    margin-top: 10px;
+    margin-left: 630px;
     color: rgb(166, 92, 131);
 }
 .primera, .segunda{
@@ -243,6 +251,7 @@ footer p{
  }
  .primera textarea{
     width: 200px;
+    resize: none;
     height: 80px;
     margin-bottom: 5px;
     font-family: Alata-regular;
@@ -276,10 +285,16 @@ footer p{
  .segunda textarea{
     width: 200px;
     height: 80px;
+    resize: none;
     margin-bottom: 5px;
     font-family: Alata-regular;
     border-radius: 10px;
     background: rgb(250, 233, 236);
     border-color: #f533b8da;
     padding: 5px;
+ }
+ #publi{
+    float: left;
+    border-style: solid white;
+    margin: 30px;
  }
